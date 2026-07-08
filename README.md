@@ -1,6 +1,6 @@
-# Swiggy Clone
+# Foodie
 
-The Swiggy clone website has login and signup functionality. User data is stored in a MongoDB local database.  
+The Foodie website has login and signup functionality. User data is stored in a MongoDB local database.  
 Users can place an order and will receive a unique order ID.  
 We plan to improve the app to send email notifications to customers soon.
 
