@@ -93,6 +93,127 @@ The frontend is deployed using Vercel for fast and reliable hosting.
 * Notification system
 * Review and rating system
 * Wishlist functionality
+# Foodie Backend 
+
+🚀 Backend service for a Swiggy-inspired food ordering platform built using Node.js, Express.js, and MongoDB, handling 1.3K+ monthly requests with secure authentication, cart management, order workflows, and scalable REST API architecture.
+
+---
+## Performance Optimizations
+
+- Implemented server-side caching to reduce redundant database queries
+- Optimized backend request handling and API workflows
+- Modular architecture for scalable application maintenance
+
+## Features
+
+- RESTful API architecture
+- JWT-based authentication and authorization
+- Role-Based Access Control (RBAC) for Admin and Users
+- Restaurant and food item management
+- Cart and order management workflows
+- Secure authentication using HttpOnly cookies
+- MongoDB database integration
+- Middleware-based request validation and error handling
+- Optimized backend routing and modular architecture
+- Server-side caching for improved API performance
+
+---
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt.js
+- Cookie Parser
+- dotenv
+- CORS
+
+---
+
+## Project Structure
+
+```bash
+backend/
+│
+├── controllers/
+├── routes/
+├── models/
+├── middleware/
+├── config/
+├── utils/
+├── server.js
+└── package.json
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+cd backend
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Create Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+CLIENT_URL=your_frontend_url
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## API Functionalities
+
+- User registration and login
+- Secure authentication and authorization
+- Restaurant and menu management
+- Cart management APIs
+- Order placement and tracking
+- Admin management operations
+- Protected API routes
+
+---
+
+## Security Features
+
+- JWT authentication
+- HttpOnly cookie handling
+- Password hashing using bcrypt
+- Protected routes middleware
+- RBAC implementation for secure access control
+---
+
+## Future Improvements
+
+- Payment gateway integration
+- Real-time order tracking with Socket.IO
+- Notification system
+- API rate limiting
+- Docker deployment support
+
+---
 
 ## Author
 
